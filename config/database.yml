@@ -3,7 +3,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  user: postgres
+  username: postgres
   password: postgres
 
 development:
@@ -17,7 +17,7 @@ test:
 production:
   <<: *default
   database: library_production
-  user: postgres
+  username: postgres
   password: postgres
   # username: library
   # password: <%= ENV["LIBRARY_DATABASE_PASSWORD"] %>
