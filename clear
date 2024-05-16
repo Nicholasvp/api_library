@@ -1,0 +1,10 @@
+ => 
+[32m#<Book:0x00007f4fbeb07510[0m
+ id: [34m[1m1[0m,
+ title: [31m[1m"[0m[31mLivro 1[0m[31m[1m"[0m,
+ rating: [34m[1m5[0m,
+ comment: [31m[1m"[0m[31mprimeiro livro[0m[31m[1m"[0m,
+ bookcase_id: [34m[1m2[0m,
+ author_id: [34m[1m1[0m,
+ created_at: Thu, 16 May 2024 13:13:21.647013000 UTC +00:00,
+ updated_at: Thu, 16 May 2024 13:13:21.647013000 UTC +00:00[32m>[0m 
