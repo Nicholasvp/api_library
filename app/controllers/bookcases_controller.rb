@@ -8,6 +8,8 @@ class BookcasesController < ApplicationController
     render json: @bookcases
   end
 
+  
+
   # GET /bookcases/1
   def show
     render json: @bookcase
