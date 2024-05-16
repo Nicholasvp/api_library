@@ -17,5 +17,7 @@ test:
 production:
   <<: *default
   database: library_production
-  username: library
-  password: <%= ENV["LIBRARY_DATABASE_PASSWORD"] %>
+  user: postgres
+  password: postgres
+  # username: library
+  # password: <%= ENV["LIBRARY_DATABASE_PASSWORD"] %>
